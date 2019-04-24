@@ -5,9 +5,10 @@ int main (void){
 	printf("Insira um numero:");
 	scanf("%d",&n);
 	while(n!=0){
+		soma+=n;
 		printf("Insira um numero:");
 		scanf("%d",&n);
-		soma+=n;
+		
 	{
 	printf ("A soma é:%d",soma);
 	return 0;
